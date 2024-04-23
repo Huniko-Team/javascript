@@ -367,8 +367,8 @@ Other Style Guides
     someStack.push('abracadabra');
     ```
 
-  <a name="es6-array-spreads"></a><a name="4.3"></a>
-  - [4.3](#es6-array-spreads) Use array spreads `...` to copy arrays.
+  <a name="es6-array-spread"></a><a name="4.3"></a>
+  - [4.3](#es6-array-spread) Use array spread `...` to copy arrays.
 
     ```javascript
     // bad
@@ -386,7 +386,7 @@ Other Style Guides
 
   <a name="arrays--from"></a>
   <a name="arrays--from-iterable"></a><a name="4.4"></a>
-  - [4.4](#arrays--from-iterable) To convert an iterable object to an array, use spreads `...` instead of [`Array.from`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
+  - [4.4](#arrays--from-iterable) To convert an iterable object to an array, use spread `...` instead of [`Array.from`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
 
     ```javascript
     const foo = document.querySelectorAll('.foo');
@@ -3765,7 +3765,7 @@ Other Style Guides
 1. [Destructuring](#destructuring)
 1. [Default Parameters](#es6-default-parameters)
 1. [Rest](#es6-rest)
-1. [Array Spreads](#es6-array-spreads)
+1. [Array spread](#es6-array-spread)
 1. [Let and Const](#references)
 1. [Exponentiation Operator](#es2016-properties--exponentiation-operator)
 1. [Iterators and Generators](#iterators-and-generators)
